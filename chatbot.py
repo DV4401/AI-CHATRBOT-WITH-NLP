@@ -14,7 +14,7 @@ responses = {
     "thanks": ["You’re welcome!", "Happy to help!", "Anytime!"],
     "weather": ["I can’t check real weather, but it’s probably sunny somewhere!", "Want to know about weather? I’d say it’s a great day to chat!"],
     "time": [f"The current time is {datetime.datetime.now().strftime('%H:%M:%S')} (as of my clock on April 1, 2025)."],
-    "who_are_you": ["I’m Grok, a friendly AI built by xAI, here to answer your questions!", "I’m Grok, your chat buddy from xAI!"],
+    "who_are_you": ["I’m Bot, a friendly AI built by DV, here to answer your questions!", "I’m Bot, your chat buddy from AI!"],
     "what_can_you_do": ["I can chat about weather, time, or just say hi! Ask me anything!", "I’m here to answer simple questions and have a good time!"],
     "default": ["Hmm, I’m not sure about that. Try asking something else!", "I didn’t catch that—can you rephrase it?"]
 }
@@ -48,7 +48,7 @@ def chatbot_response(user_input):
 
 # Main chat loop
 def run_chatbot():
-    print("Chatbot: Hello! I’m Grok, your AI assistant. Type 'exit' to quit.")
+    print("Chatbot: Hello! I’m Bot, your AI assistant. Type 'exit' to quit.")
     
     while True:
         user_input = input("You: ").strip()
